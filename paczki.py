@@ -17,4 +17,5 @@ for j in range(len(kolejnosc)):
 		d[imiona[i]]=liczba
 wynik = sorted(d.items(), key = operator.itemgetter(1), reverse=True)
 print(wynik)
+print("Witam")
 
